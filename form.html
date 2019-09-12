@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>FORM REGISTRASI LOMBA C++</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body{
+            font-family: sans-serif;
+            background: #3199a7;
+        }
+        
+        h1{
+            text-align: center;
+            font-weight: 300;
+        }
+        
+        .tulisan_login{
+            text-align: center;
+            text-transform: uppercase;
+        }
+        
+        .kotak_login{
+            width: 350px;
+            background:rgb(107, 202, 107);
+            margin: 80px auto;
+            padding: 30px 20px;
+        }
+        
+        label{
+            font-size: 11pt;
+        }
+        
+        .form_login{
+            box-sizing : border-box;
+            width: 100%;
+            padding: 10px;
+            font-size: 11pt;
+            margin-bottom: 20px;
+        }
+        
+        .tombol_login{
+            background:rgb(243, 247, 13);
+            color:black;
+            font-size: 11pt;
+            width: 100%;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 20px;
+        }
+    
+        .tombol_login:hover{
+            background: white;
+        }
+        
+        .link{
+            color: #232323;
+            text-decoration: none;
+            font-size: 10pt;
+        } 
+    </style>
+</head>
+<body>
+
+	<h1>FORM REGISTRASI LOMBA EEA UNILA 2019 <br/> PEMROGRAMAN C++</h1>
+
+	<div class="kotak_login">
+
+		<form action="https://himatro.ee.unila.ac.id">
+			<label>Nama</label>
+			<input type="text" name="username" class="form_login" placeholder=" Masukkan Nama ">
+
+			<label>Password</label>
+            <input type="password" id="pass" name="password" class="form_login" placeholder="Masukkan Password ">
+
+            <label>Asal Sekolah</label>
+			<input type="text" name="Asal Sekolah" class="form_login" placeholder=" ex : SMAN 9 Bandarlampung ">
+
+            <label>Nomor HP</label>
+            <input type="text" name="Nomor HP" class="form_login" placeholder=" ex : 08527XXXXX ">
+            
+            <label>Alamat</label>
+			<input type="text" name="Alamat" class="form_login" placeholder=" ex : jalan indrabangsawan Nomor 68">
+
+            <input type="submit" class="tombol_login" value="submit" onclick="alert('REGISTRASI BERHASIL')" >
+
+			<br/>
+			<br/>
+			
+		</form>
+		
+	</div>
+
+
+</body>
+</html>
